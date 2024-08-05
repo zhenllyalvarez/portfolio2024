@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 600px) {
+    .home {
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+
+    .intro {
+        margin-top: 50px;
+    }
+
+    .button {
+        padding: 0;
+        margin: 20 0 0 0;
+        gap: 2px;
+        text-align: center;
+    }
+
+    /* .dl-cv {
+        text-align: center;
+    } */
+
+    .undraw {
+        margin: 0;
+    }
+
+    #about {
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .view-resume {
+        display: flex;
+        justify-content: center;
+    }
+
+    .left {
+        margin: 0;
+    }
+    .right  {
+        margin-top: -20px;
+    }
+
+    .skill-icon {
+        display: flex;
+        flex-wrap: wrap;
+        /* padding: 10px; */
+    }
+    .progress-bar {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* .experience {
+        display: flex;
+        padding: 0;
+        justify-content: center;
+        margin: 50px 0 0 0;
+    } */
+
+    
+
+    .experienceTitle {
+        margin-top: 50px;
+       font-size: 50px;
+    }
+
+    #projects {
+        font-size: 50px;
+    }
+
+    .worpressDesigner {
+        font-size: 20px;
+    }
+
+    .contact {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .contact-info {
+        text-align: start;
+        margin-left: 40px;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-undraw {
+        padding: 0;
+        margin: -100px;
+    }
+
+    .footer-section {
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    .footer {
+        display: flex;
+        padding: 20px;
+        margin: 0;
+        text-align: center;
+    }
+}

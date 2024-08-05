@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="Assets/style/style.css">
+    <link rel="icon" type="image/jpg" href="Assets/img/logo.jpg" />
+    <title>zhen - Profile</title>
+</head>
+
+<body>
+    <nav class="">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a>
+                <h1 class="text-4xl font-bold text-gray-800">Zhen</h1>
+            </a>
+            <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <div class="flex gap-4 hidden lg:flex">
+                    <a href="https://www.linkedin.com/in/zhenlly-alvarez/">
+                        <svg class="w-[28px] h-[28px] text-gray-800" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z"
+                                clip-rule="evenodd" />
+                            <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://github.com/zhenllyalvarez">
+                        <svg class="w-[28px] h-[28px] text-gray-800" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+
+                    <a href="https://www.facebook.com/john.zhenlly.56">
+                        <svg class="w-[28px] h-[28px] text-gray-800" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+
+                <button id="menu-button" data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div id="menu" class="sm:absolute lg:static md:static top-14 bg-white z-50 justify-between hidden w-full md:flex md:w-auto md:order-1">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white">
+                    <li>
+                        <a href="#home"
+                            class="block py-2 px-3 text-gray-600 font-medium rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about"
+                            class="block py-2 px-3 text-gray-600 font-medium rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0">About</a>
+                    </li>
+                    <li>
+                        <a href="#experience"
+                            class="block py-2 px-3 text-gray-600 font-medium rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0">Experience</a>
+                    </li>
+                    <li>
+                        <a href="#projects"
+                            class="block py-2 px-3 text-gray-600 font-medium rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-gray-700 md:p-0">Projects</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <button id="scrollButton"
+        class="fixed bottom-4 right-4 bg-gray-800 text-white p-2.5 rounded-md mb-12 shadow-md hover:scale-110 transition-opacity duration-300 z-50 opacity-0 pointer-events-none">
+        <svg class="w-[24px] h-[24px] text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 0 10 6">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"
+                d="M9 5 5 1 1 5"></path>
+        </svg>
+    </button>
+
+
+    <main>
+        <!-- Picture and simple Description section -->
+        <div class="home flex justify-center mt-12 gap-20 ">
+            <div class="intro mt-24">
+                <p id="home" class="text-2xl text-gray-700 font-normal text-center md:text-start">Hi, I'm <span
+                        class="font-bold text-gray-800 text-3xl">John Zhenlly Alvarez</span> <br><br>22 year-old <span
+                        class="text-gray-800 font-bold">Web Developer</span><br> based in Cebu, Philippines.</p>
+                <div class="button flex gap-2 mt-4 justify-center sm:justify-start mx-12 md:mx-0">
+                    <a class="flex gap-2 bg-gray-800 hover:bg-gray-900 font-semibold text-white p-4 px-6 rounded"
+                        href="#contact">
+                        <svg class="w-[24px] h-[24px] text-gray-800 dark:text-white" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M18.427 14.768 17.2 13.542a1.733 1.733 0 0 0-2.45 0l-.613.613a1.732 1.732 0 0 1-2.45 0l-1.838-1.84a1.735 1.735 0 0 1 0-2.452l.612-.613a1.735 1.735 0 0 0 0-2.452L9.237 5.572a1.6 1.6 0 0 0-2.45 0c-3.223 3.2-1.702 6.896 1.519 10.117 3.22 3.221 6.914 4.745 10.12 1.535a1.601 1.601 0 0 0 0-2.456Z" />
+                        </svg>
+                        Contact Me
+                    </a>
+                    <a class="button dl-cv text-center flex gap-2 bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold p-4 rounded" href="">
+                        <svg class="w-6 h-6 text-gray-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                            width="24" height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 13V4M7 14H5a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1h-2m-1-5-4 5-4-5m9 8h.01" />
+                        </svg>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="image hidden md:block">
+                <img class="h-4/6 rounded-md" src="Assets/img/IMG_0059.JPG" alt="" width="450px">
+            </div>
+        </div>
+
+        <div id="about" class="bg-gray-100 px-52">
+            <div class="about flex justify-center">
+                <div class="undraw mt-40 mb-28 hidden md:block">
+                    <img src="Assets/undraw/undraw_programming_re_kg9v.svg" alt="" height="50%" width="80%">
+                </div>
+
+                <div class="description mt-28">
+                    <h1 class="text-5xl text-gray-700 font-bold">About Me.</h1> <br>
+                    <p class="font-semibold text-gray-700 text-2xl">I'm a web developer specializing in PHP and
+                        JavaScript.</p><br>
+                    <p class="text-gray-700 text-md">I love coding. I typically build websites,<br> web apps, and custom
+                        systems to enhance my knowledge<br> and skills in the tech field.<br><br> My projects range from
+                        simple personal websites<br> to complex web applications, allowing me to continuously<br> learn
+                        and adapt to new technologies and best practices.</p>
+                    <div class="view-resume mt-8">
+                        <a class="flex gap-2 font-medium text-white bg-gray-800 hover:bg-gray-900 w-52 px-8 py-4 rounded"
+                            href="">
+                            <svg class="w-[24px] h-[24px] text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M5 17v-5h1.5a1.5 1.5 0 1 1 0 3H5m12 2v-5h2m-2 3h2M5 10V7.914a1 1 0 0 1 .293-.707l3.914-3.914A1 1 0 0 1 9.914 3H18a1 1 0 0 1 1 1v6M5 19v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1M10 3v4a1 1 0 0 1-1 1H5m6 4v5h1.375A1.627 1.627 0 0 0 14 15.375v-1.75A1.627 1.627 0 0 0 12.375 12H11Z" />
+                            </svg>
+                            View Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills section -->
+            <h1 class="text-5xl text-gray-700 font-bold text-center mt-20 mb-12">My Skills</h1>
+            <div class="skill-section justify-center gap-12">
+                <div class="skill-icon flex gap-4 justify-center">
+                    <div
+                        class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968332.png" class="h-14"
+                            alt="PHP"><span>PHP</span>
+                    </div>
+                    <div
+                        class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
+                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968292.png" class="h-14"
+                            alt="PHP"><span>JavaScript</span>
+                    </div>
+                    <div
+                        class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
+                        <img src="https://cdn-icons-png.flaticon.com/128/16473/16473339.png" class="h-14"
+                            alt="PHP"><span>MySQL</span>
+                    </div>
+                    <div
+                        class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
+                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968705.png" class="h-14"
+                            alt="PHP"><span>Figma</span>
+                    </div>
+                    <div
+                        class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
+                        <img src="https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg" class="h-14"
+                            alt="PHP"><span>TailwindCSS</span>
+                    </div>
+                    <div
+                        class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
+                        <img src="https://cdn-icons-png.flaticon.com/128/921/921594.png" class="h-14"
+                            alt="PHP"><span>HTML/CSS</span>
+                    </div>
+                    <div
+                        class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
+                        <img src="https://cdn-icons-png.flaticon.com/128/174/174881.png" class="h-14"
+                            alt="PHP"><span>WordPress</span>
+                    </div>
+                    <div
+                        class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
+                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968699.png" class="h-14"
+                            alt="PHP"><span>Elementor/Pro</span>
+                    </div>
+                    <div
+                        class="p-1 flex flex-col items-center gap-2 hover:scale-105 transition duration-75 delay-75 cursor-pointer">
+                        <img src="https://cdn-icons-png.flaticon.com/128/5968/5968672.png" class="h-14"
+                            alt="PHP"><span>Bootstrap5</span>
+                    </div>
+                </div>
+
+                <div class="progress-bar flex gap-8 p-12">
+                    <div class="left flex-1 mb-28">
+                        <div class="flex justify-between mb-1">
+                            <span class="text-base font-medium text-gray-800">PHP</span>
+                            <span class="text-sm font-medium text-gray-800">75%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5 mb-2">
+                            <div class="bg-gray-700 h-2.5 rounded-full" style="width: 75%"></div>
+                        </div>
+
+                        <div class="flex justify-between mb-1">
+                            <span class="text-base font-medium text-gray-800">MySQL</span>
+                            <span class="text-sm font-medium text-gray-800">70%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5 mb-2">
+                            <div class="bg-gray-700 h-2.5 rounded-full" style="width: 70%"></div>
+                        </div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-base font-medium text-gray-800">WordPress</span>
+                            <span class="text-sm font-medium text-gray-800">50%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-gray-700 h-2.5 rounded-full" style="width: 50%"></div>
+                        </div>
+                    </div>
+
+                    <div class="right flex-1">
+                        <div class="flex justify-between mb-1">
+                            <span class="text-base font-medium text-gray-800">JavaScript</span>
+                            <span class="text-sm font-medium text-gray-800">50%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5 mb-2">
+                            <div class="bg-gray-700 h-2.5 rounded-full" style="width: 50%"></div>
+                        </div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-base font-medium text-gray-800">TailwindCSS</span>
+                            <span class="text-sm font-medium text-gray-800">65%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5 mb-2">
+                            <div class="bg-gray-700 h-2.5 rounded-full" style="width: 65%"></div>
+                        </div>
+                        <div class="flex justify-between mb-1">
+                            <span class="text-base font-medium text-gray-800">HTML/CSS</span>
+                            <span class="text-sm font-medium text-gray-800">85%</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2.5">
+                            <div class="bg-gray-700 h-2.5 rounded-full" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end of skill section -->
+
+            <!-- start of experience section -->
+            <div id="experience">
+                <h1 class="experienceTitle text-5xl text-gray-700 font-bold text-center">Experience</h1>
+                <div class="experience mb-16 w-full flex justify-center items-center">
+                    <div class="max-w-7xl mx-auto w-full grid grid-cols-1 sm:grid-cols-9 px-2 p-6">
+                        <!-- Stack 1 -->
+                        <div class="col-span-1 sm:col-span-4 w-full h-full">
+                            <div class="w-full h-full bg-gray-50 shadow-xl rounded-md p-2 md:pl-4">
+                                <h1 class="text-gray-700 text-xl font-medium py-2">College<br>
+                                    <span>
+                                        <h2 class="text-sm font-normal">Cordova Public College</h2>
+                                    </span>
+                                </h1>
+                                <p class="text-gray-700 sm:text-sm text-xs"> I have developed strong skills in systems analysis, database management, and programming. I have improved my problem-solving abilities and technical proficiency by applying my knowledge to real-world problems through a variety of projects and internships. I'm well-prepared for a profession in the exciting sector of information technology.</p>
+                                <p class="text-gray-400 font-normal sm:text-sm text-xs mt-4">2023 - 2024 - Ended</p>
+                            </div>
+                        </div>
+                        <div class="relative col-span-1 w-full h-full flex justify-center items-center">
+                            <div class="absolute w-6 h-6 rounded-full bg-gray-700 z-10 text-white text-center hidden lg:block">1</div>
+                            <div class="h-full w-1 bg-gray-800 hidden lg:block"></div>
+                            <div class="absolute w-6 h-6 rounded-full bg-gray-600 z-10 text-white text-center animate-ping hidden lg:block"></div>
+                        </div>
+                        <div class="col-span-1 sm:col-span-4 w-full h-full mb-4"></div>
+                
+                        <!-- Stack 2 -->
+                        <div class="col-span-1 sm:col-span-4 w-full h-full"></div>
+                        <div class="relative col-span-1 w-full h-full flex justify-center items-center">
+                            <div class="absolute w-6 h-6 rounded-full bg-gray-700 z-10 text-white text-center hidden lg:block">2</div>
+                            <div class="h-full w-1 bg-gray-800 hidden lg:block"></div>
+                            <div class="absolute w-6 h-6 rounded-full bg-gray-600 z-10 text-white text-center animate-ping hidden lg:block"></div>
+                        </div>
+                        <div class="col-span-1 sm:col-span-4 w-full h-full">
+                            <div class="w-full h-full bg-gray-50 shadow-xl rounded-md p-2 md:pl-4">
+                                <h1 class="worpressDesigner text-gray-700 text-xl font-medium py-2">WordPress Developer/Designer<br>
+                                    <span>
+                                        <h2 class="text-sm font-normal">Cebu Web Designs</h2>
+                                    </span>
+                                </h1>
+                                <p class="text-gray-700 sm:text-sm text-xs">During this training period, I collaborated with my supervisor as WordPress developer and worked on real-world projects, significantly enhancing my skills. This experience not only improved my technical abilities but also strengthened my teamwork and communication skills, preparing me for future challenges in the IT industry.</p>
+                                <a class="text-sm text-blue-500 underline" href="https://casaplantita.com/">Work</a>
+                                <p class="text-gray-400 font-normal sm:text-sm text-xs mt-4">January 2024 - May 2024 - Ended</p>
+                            </div>
+                        </div>
+                
+                        <!-- Stack 3 -->
+                        <div class="col-span-1 sm:col-span-4 w-full h-full mt-4">
+                            <div class="w-full h-full bg-gray-50 shadow-xl rounded-md p-2 md:pl-4">
+                                <h1 class="text-gray-700 text-xl font-medium py-2">Capstone Project<br>
+                                    <span>
+                                        <h2 class="text-sm font-normal">Swapifine.com</h2>
+                                    </span>
+                                </h1>
+                                <p class="text-gray-700 sm:text-sm text-xs">It was a noteworthy accomplishment to be named the 4th year's best capstone project overall. This recognition is a testament to my commitment, technical proficiency, and capacity to do excellent work under trying circumstances. I showed a great commitment to creating the finest software possible during the entire project.</p>
+                                <a class="text-sm text-blue-500 underline" href="https://swapifine.com/">Work</a>
+                                <p class="text-gray-400 font-normal sm:text-sm text-xs mt-4">August 2023 - December 2023 - Ended</p>
+                            </div>
+                        </div>
+                        <div class="relative col-span-1 w-full h-full flex justify-center items-center hidden lg:flex">
+                            <div class="absolute w-6 h-6 rounded-full bg-gray-700 z-10 text-white text-center">3</div>
+                            <div class="h-full w-1 bg-gray-800 relative"></div>
+                            <div class="absolute w-6 h-6 rounded-full bg-gray-700 z-10 text-white text-center animate-ping"></div>
+                        </div>
+                        <div class="col-span-1 sm:col-span-4 w-full h-full"></div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- end of experience sections -->
+
+            <!-- Project Section -->
+            <h1 id="projects" class="text-5xl text-gray-700 font-bold text-center mt-24 mb-12">Projects</h1>
+            <div class="Project">
+                <div class="py-6 sm:py-8 lg:py-12">
+                    <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+                            <!-- image - start -->
+                            <a href="https://www.swapifine.com/"
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <img src="Assets/img/Screenshot 2024-04-09 161234.png" loading="lazy"
+                                    alt="Photo by Minh Pham"
+                                    class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+            
+                                <div
+                                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+            
+                                <span
+                                    class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Swapifine
+                                    - Vue & Laravel</span>
+                            </a>
+                            <!-- image - end -->
+            
+                            <!-- image - start -->
+                            <a href="https://casaplantita.com/"
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                                <img src="Assets/img/Screenshot 2024-05-09 183228.png" loading="lazy"
+                                    alt="Photo by Magicle"
+                                    class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+            
+                                <div
+                                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+            
+                                <span
+                                    class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Casaplantita
+                                    - Wordpress Elemetor/pro</span>
+                            </a>
+                            <!-- image - end -->
+            
+                            <!-- image - start -->
+                            <a href="https://github.com/zhenllyalvarez/crud_pdo"
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
+                                <img src="Assets/img/Screenshot 2024-05-09 172115.png" loading="lazy"
+                                    alt="Photo by Martin Sanchez"
+                                    class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+            
+                                <div
+                                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+            
+                                <span
+                                    class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Simple
+                                    SocialSnap</span>
+                            </a>
+                            <!-- image - end -->
+            
+                            <!-- image - start -->
+                            <a href="#"
+                                class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
+                                <img src="Assets/undraw/undraw_no_data_re_kwbl.svg" loading="lazy"
+                                    alt="Photo by Lorenzo Herrera"
+                                    class="absolute inset-0 h-full w-full object-contain object-center transition duration-200 group-hover:scale-110" />
+            
+                                <div
+                                    class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                                </div>
+            
+                                <span
+                                    class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">N/A</span>
+                            </a>
+                            <!-- image - end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- Contact Section -->
+            <div id="contact" class="contact flex justify-center gap-16 p-12 h-screen">
+                <div class="">
+                    <h1 class="text-5xl text-gray-700 font-bold mt-24 mb-2">Contact</h1>
+                    <h1 class="text-2xl text-gray-700 font-semibold">Get in touch, let's have a quick call.</h1><br>
+                    <p class="text-gray-700">Feel free to send me an email or dm me in my socialmedia</p>
+                    <div class="contact-info mt-2">
+                        <div class="flex gap-2">
+                            <svg class="w-[24px] h-[24px] text-gray-800" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                                    d="m3.5 5.5 7.893 6.036a1 1 0 0 0 1.214 0L20.5 5.5M4 19h16a1 1 0 0 0 1-1V6a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1Z" />
+                            </svg>
+                            <p class="text-gray-700 font-bold">Email: <span
+                                    class="font-normal">alvarezjohn0126@gmail.com</span></p>
+                        </div>
+
+                        <div class="flex gap-2">
+                            <svg class="w-[24px] h-[24px] text-gray-800" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M12 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M17.8 13.938h-.011a7 7 0 1 0-11.464.144h-.016l.14.171c.1.127.2.251.3.371L12 21l5.13-6.248c.194-.209.374-.429.54-.659l.13-.155Z" />
+                            </svg>
+                            <p class="text-gray-700 font-bold">Address: <span class="font-normal">Lapu-Lapu City, Cebu,
+                                    Philippines</span></p>
+                        </div>
+
+                        <div class="flex gap-2">
+                            <svg class="w-[24px] h-[24px] text-gray-800" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2"
+                                    d="M6 15h12M6 6h12m-6 12h.01M7 21h10a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1Z" />
+                            </svg>
+                            <p class="text-gray-700 font-bold">Phone Number: <span
+                                    class="font-normal">0907-907-7532</span></p>
+                        </div>
+                    </div>
+                    <div class="socials mt-2">
+                        <h1 class="text-3xl font-bold text-gray-700">Socials</h1>
+                        <div class="flex gap-2 mt-2">
+                            <a href="https://www.facebook.com/john.zhenlly.56">
+                                <svg class="w-[38px] h-[36px] text-gray-800 bg-gray-300 hover:bg-gray-400 rounded-xl"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd"
+                                        d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+
+                            <a href="https://www.instagram.com/zhenllyalvarez/">
+                                <svg class="w-[38px] h-[36px] text-gray-800 bg-gray-300 hover:bg-gray-400 rounded-xl"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    fill="none" viewBox="0 0 24 24">
+                                    <path fill="currentColor" fill-rule="evenodd"
+                                        d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/zhenlly-alvarez/">
+                                <svg class="w-[38px] h-[36px] text-gray-800 bg-gray-300 hover:bg-gray-400 rounded-xl"
+                                    aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    fill="currentColor" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd"
+                                        d="M12.51 8.796v1.697a3.738 3.738 0 0 1 3.288-1.684c3.455 0 4.202 2.16 4.202 4.97V19.5h-3.2v-5.072c0-1.21-.244-2.766-2.128-2.766-1.827 0-2.139 1.317-2.139 2.676V19.5h-3.19V8.796h3.168ZM7.2 6.106a1.61 1.61 0 0 1-.988 1.483 1.595 1.595 0 0 1-1.743-.348A1.607 1.607 0 0 1 5.6 4.5a1.601 1.601 0 0 1 1.6 1.606Z"
+                                        clip-rule="evenodd" />
+                                    <path d="M7.2 8.809H4V19.5h3.2V8.809Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-undrawflex justify-end py-20 hidden lg:block md:block">
+                    <img class="h-5/6 w-full mt-8 hidden lg:block md:block" src="Assets/undraw/undraw_profile_data_re_v81r.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-section bg-gray-100">
+            <div class="footer border-t mx-64 p-12">
+                <p class="text-center text-gray-600 font-light">© 2024 - John Zhenlly Alvarez. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="JS/index.js"></script>
+
+</html>
