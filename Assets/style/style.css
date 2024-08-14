@@ -106,10 +106,10 @@ html {
         display: flex;
     }
 
-    .footer {
+    /* .footer {
         display: flex;
         padding: 20px;
         margin: 0;
         text-align: center;
-    }
+    } */
 }
